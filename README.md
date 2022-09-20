@@ -27,6 +27,9 @@ The first number in `GeneratePassword` (15) is the password length. The second n
 
 Otherwise, it will set this parameter.
 
+6. If you want to print out a list of usernames with their temporary passwords, leave line 21 as is. Otherwise, comment it out or delete it.
+7. Apologize to help desk in advance, and run the script.
+
 
 ## Why?
 This script was designed for incident response. If you have a large number of users that have been compromised or fell victim to a phishing campaign and you're not sure if they've entered their credentials or not, this script can help you quickly contain a potential incident and buy you some time for further investigation.
